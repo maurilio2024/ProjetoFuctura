@@ -47,7 +47,8 @@ public class AssociacoesAplicacao {
 		
 		for(Veiculo vv : resultado) {
 			System.out.println(" Modelo: " + vv.getModelo() + " \n Loja: "+ vv.getLoja().getNome());
-					
+		
+			System.out.println("Teste");
 		}
 		
 	}
